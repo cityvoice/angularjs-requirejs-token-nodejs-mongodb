@@ -1,0 +1,15 @@
+{
+  "node": true,
+  "esnext": true,
+  "curly": false,
+  "smarttabs": true,
+  "indent": 2,
+  "undef":true,
+  "noarg":true,
+  "noempty":true,
+  "quotmark": "single",
+  "globals": {
+    "define": true,
+    "require": true
+  }
+}

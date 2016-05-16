@@ -1,0 +1,491 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ser",
+				"services"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"login",
+				"loginController"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"lo",
+				"location"
+			],
+			[
+				"l",
+				"loginName"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"pa",
+				"placeholder	Attr"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"th",
+				"thead	Tag"
+			],
+			[
+				"loc",
+				"localhost"
+			],
+			[
+				"add",
+				"addAssurance"
+			],
+			[
+				"pri",
+				"prices"
+			],
+			[
+				"do",
+				"Document"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 2095,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 689,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "Package Control: install",
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/webroot/nodejs/brief"
+	],
+	"file_history":
+	[
+		"/E/webroot/nodejs/brief/views/error.ejs",
+		"/E/webroot/nodejs/brief/brief.sublime-project",
+		"/E/webroot/nodejs/brief/package.json",
+		"/E/webroot/nodejs/brief/app.js",
+		"/E/webroot/nodejs/brief/public/js/app/router.js",
+		"/E/webroot/nodejs/brief/public/js/app/user/directives/rowSelectDirective.js",
+		"/E/webroot/nodejs/brief/public/js/app/user/directives/editUserDirective.js",
+		"/E/webroot/nodejs/brief/public/js/app/user/directives/deleteUserDirective.js",
+		"/E/webroot/nodejs/brief/public/js/app/user/controllers/userListController.js",
+		"/E/webroot/nodejs/brief/public/js/app/user/services/userService.js",
+		"/E/webroot/nodejs/brief/dao/userDao.js",
+		"/E/webroot/nodejs/brief/conn.js",
+		"/E/webroot/angular/static/js/app/user/directives/userDirective.js",
+		"/E/webroot/d3/force.html",
+		"/E/webroot/d3/spider.html",
+		"/E/webroot/nodejs/myApp/www/index.html",
+		"/E/webroot/nodejs/brief/public/templates/user.html",
+		"/E/webroot/nodejs/brief/public/js/app/user/controllers/userEditController.js",
+		"/E/webroot/nodejs/brief/public/js/app/admin/services/adminService.js",
+		"/E/webroot/nodejs/brief/public/js/app/admin/controllers/adminController.js",
+		"/E/webroot/nodejs/brief/public/js/app/login/services/loginService.js",
+		"/E/webroot/nodejs/brief/public/js/app/login/controllers/loginController.js",
+		"/E/webroot/nodejs/brief/public/templates/admin.html",
+		"/E/webroot/nodejs/brief/routes/index.js",
+		"/E/webroot/nodejs/brief/views/index.html",
+		"/E/webroot/nodejs/brief/routes/login.js",
+		"/E/webroot/nodejs/brief/routes/users.js",
+		"/E/webroot/nodejs/brief/public/templates/login.html",
+		"/E/webroot/angular/static/js/app/user/controllers/userController.js",
+		"/E/webroot/angular/static/js/app/user/services/userService.js",
+		"/E/webroot/nodejs/brief/public/js/app/role/services/roleService.js",
+		"/E/webroot/nodejs/brief/public/js/app/role/controllers/roleController.js",
+		"/E/webroot/angular/directive.htm",
+		"/E/webroot/nodejs/brief/views/login.html",
+		"/E/webroot/nodejs/brief/public/js/app/login/login.router.js",
+		"/E/webroot/angular/static/views/user.html",
+		"/E/webroot/nodejs/brief/public/templates/role.html",
+		"/E/webroot/angular/static/templates/admin.html",
+		"/E/webroot/angular/static/js/app/app.js",
+		"/E/webroot/nodejs/brief/public/js/app/login/login.app.js",
+		"/E/webroot/nodejs/brief/public/js/app/main.js",
+		"/E/webroot/nodejs/brief/views/error.html",
+		"/E/webroot/nodejs/brief/actions/login.js",
+		"/E/webroot/nodejs/brief/public/js/common/ext.js",
+		"/E/webroot/nodejs/brief/node_modules/grunt-contrib-compass/tasks/compass.js",
+		"/E/webroot/nodejs/brief/assets/scss/main.scss",
+		"/E/webroot/nodejs/brief/Gruntfile.js",
+		"/E/webroot/angular/static/js/app/book/directives/bookDirective.js",
+		"/E/webroot/angular/inc/config.php",
+		"/E/webroot/angular/inc/process.php",
+		"/E/webroot/angular/inc/bookDao.class.php",
+		"/E/webroot/angular/js/app.js",
+		"/E/webroot/nodejs/brief/dbconfig.js",
+		"/E/webroot/nodejs/brief/node_modules/grunt-contrib-compass/package.json",
+		"/C/Users/funny.zhang/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/E/webroot/nodejs/brief/css/main.scss",
+		"/E/webroot/nodejs/brief/.jshintrc",
+		"/E/webroot/nodejs/brief/src/test2.js",
+		"/E/webroot/nodejs/brief/src/test.js",
+		"/E/webroot/nodejs/brief/dist/all.min.js",
+		"/E/webroot/nodejs/brief/dist/all.js",
+		"/E/webroot/angular/static/js/app/login/services/loginService.js",
+		"/E/webroot/nodejs/brief/public/js/app/module1/tpl.html",
+		"/E/webroot/nodejs/brief/public/js/app/module1/module1.js",
+		"/E/webroot/angular/static/js/app/login/login.app.js",
+		"/E/webroot/angular/static/js/app/login/controllers/loginController.js",
+		"/E/webroot/angular/static/views/index.html",
+		"/E/webroot/angular/static/templates/login.html",
+		"/E/webroot/angular/static/js/common/ext.js",
+		"/E/webroot/angular/partials/phone-list.html",
+		"/E/webroot/angular/static/views/login.html",
+		"/E/webroot/angular/index.htm",
+		"/E/webroot/angular/static/js/app/user/user.app.js",
+		"/E/webroot/angular/js/controllers.js",
+		"/E/webroot/angular/static/actions/login.php",
+		"/E/webroot/angular/static/js/app/book/controllers/bookController.js",
+		"/E/webroot/angular/static/actions/user.php",
+		"/E/webroot/angular/static/template/login.html",
+		"/E/webroot/angular/static/dao/userDao.php",
+		"/E/webroot/angular/static/dbConfig.php",
+		"/E/webroot/angular/static/js/modules/pagetor/pagetor.js",
+		"/E/webroot/angular/js/book.js",
+		"/E/webroot/angular/static/js/app/user/services/userkService.js",
+		"/E/webroot/angular/static/css/modules/bootstrap.min.css",
+		"/E/webroot/angular/static/actions/book.php",
+		"/E/webroot/angular/static/dao/bookDao.php",
+		"/E/webroot/angular/static/modules/pagetor/pagetor.js",
+		"/E/webroot/angular/static/js/app/book/services/bookService.js",
+		"/E/webroot/angular/static/js/app/controllers/bookController.js",
+		"/E/webroot/angular/static/js/lib/angular/angular-1.0.1.min.js",
+		"/E/webroot/angular/static/app/book/book.app.js",
+		"/E/webroot/angular/static/app/book/controllers/bookController.js",
+		"/E/webroot/angular/static/app/book/services/bookService.js",
+		"/E/webroot/angular/static/app/book/directives/bookDirective.js",
+		"/E/webroot/angular/static/app/app.js",
+		"/E/webroot/angular/static/app/book/directives/bookDirective",
+		"/E/webroot/angular/inc/book.class.php",
+		"/E/webroot/angular/inc/test.php",
+		"/E/webroot/angular/inc/user.class.php",
+		"/C/Users/funny.zhang/AppData/Roaming/Sublime Text 3/Packages/JsFormat/JsFormat.sublime-settings",
+		"/C/Users/funny.zhang/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/funny.zhang/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/funny.zhang/AppData/Roaming/Sublime Text 3/Packages/User/Preview.sublime-build",
+		"/C/Users/funny.zhang/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"anger",
+			"OpenCollection.close();",
+			"OpenCollection.close()",
+			"db",
+			"DB",
+			"clearfix",
+			"income",
+			"\"income\":100",
+			"?method=",
+			"app.settiongs.actions.user+",
+			"console",
+			"console.",
+			"query",
+			"dist",
+			"tb-user-info",
+			"userinfo",
+			"Book",
+			"book",
+			"publishdate",
+			"author",
+			"book",
+			"BookService",
+			"rootScope.config.actions.book",
+			"rootScope.config.action",
+			"CONST.ajax.book",
+			"$http",
+			"$rootScope",
+			"totalPage",
+			"pageConfig",
+			"totalPage",
+			"onPageUpdate",
+			"A.const",
+			"BookService",
+			"reset",
+			"echo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"angle",
+			"CloseDB();",
+			"OpenCollection",
+			"incomes",
+			"\"income\":1000",
+			"/",
+			"",
+			"brief_userInfo",
+			"tb-user-info",
+			"User",
+			"user",
+			"realName",
+			"role",
+			"user",
+			"UserService",
+			"app.config.actions.book",
+			"rootScope.config.actions.book",
+			"rootScope.config.action",
+			"http",
+			"totalPages",
+			"conf",
+			"const"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2095,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								873,
+								873
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 689,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								406,
+								406
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Preview.sublime-build",
+	"project": "brief.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
