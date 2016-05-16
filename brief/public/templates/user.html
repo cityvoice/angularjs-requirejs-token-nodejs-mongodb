@@ -1,0 +1,62 @@
+ <style>
+.control-label{text-align: right;line-height: 28px}
+.page-total {margin: 0 20px;}
+.page-total input, .page-total select{height: 26px; border: 1px solid #ddd;}
+.page-total input {width: 40px; padding-left:3px;}
+.table-title{font-weight: bold; }
+  </style>
+
+<div ng-controller="UserListController" class="clearfix">
+	<div>
+		<h4>用户列表</h4>
+		<table class="table table-bordered">
+			<tr class="table-title">
+				<td class="col-md-2"></td>
+				<td class="col-md-4">登录名</td>
+				<td class="col-md-3">真实名</td>
+				<td class="col-md-3">角色</td>
+			</tr>
+			<tr ng-repeat="user in users" row-select>
+				<td><span class="btn btn-xs btn-default" edit-user user="user">修改</span> <span class="btn btn-xs btn-default" delete-user user="user">删除</span></td>
+				<td>{{user.loginName}}</td>
+				<td>{{user.realName}}</td>
+				<td>{{roles | roleFilter:user.role}}</td>
+			</tr>
+		</table>
+		<pagetor conf="pageConfig"></pagetor>
+	</div>
+	<hr>
+	<div ng-controller="UserEditController" ng-show="show">
+		<h4>修改用户</h4>
+		<div class="form-group">
+	      	<label for="loginName" class="col-sm-2 control-label">登录名:</label>
+	      	<div class="col-sm-10">
+	        <input type="text" class="form-control" id="loginName" ng-model="loginName" 
+	            placeholder="请输入登录名" readonly="false">
+	      	</div>				
+		</div>
+		<div class="form-group">
+	      	<label for="realName" class="col-sm-2 control-label">真实名:</label>
+	      	<div class="col-sm-10">
+	        <input type="text" class="form-control" id="realName" ng-model="realName" 
+	            placeholder="请输入真实名">
+	      	</div>				
+		</div>				
+		<div class="form-group">
+	      	<label for="role" class="col-sm-2 control-label">角色:</label>
+	      	<div class="col-sm-10">
+	        <select class="form-control" id="role" ng-model="role" ng-options="role.roleId as role.desc for role in roles">
+	        <option value="">-- 选择角色 --</option>
+	        </select>
+	      	</div>			
+		</div>
+		<div class="form-group">
+		     <div class="col-sm-offset-2 col-sm-10">
+		     	<input type="hidden" value="{{id}}">
+		        <button type="button" class="btn btn-primary" ng-click="save()">保存</button>
+		        <button type="button" class="btn btn-primary" ng-click="cancel()">取消</button>
+		     </div>				
+		</div>
+	</div>
+</div>
+

@@ -1,0 +1,98 @@
+
+ <style>
+  h2{
+    color:white;
+  }
+
+
+  .login-form{
+    min-width:400px;
+    margin-left:auto;margin-right:auto;  
+    position:relative; width:30%; height:320px; top:50%; margin-top: -160px;
+  }
+  .form-body{
+    padding: 10px 50px 20px 50px;
+    background: #fff;
+  }  
+  .form-row{
+    padding-top: 20px;
+  }
+  .field{
+    position: relative;
+  }
+  .field label.login-span{
+    position:absolute;
+    display:block;
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    text-align:center;
+    color: #fff;
+    background:#ddd;
+    left:1px;
+    top:1px;
+    outline:0;
+    font-size: 22px;
+  }
+  .field input.login-text{
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    line-height:18px;
+    padding:11px 8px 11px 50px;
+    border:1px solid #ddd;
+  }
+  .login-button{
+    width:100%;
+    color:#fff;
+    background-color:#337ab7;
+    border-color:#2e6da4;
+  }
+  
+  .error{
+    float:left;
+    color:#a94442;
+  }
+  .forget-pwd{
+    float:right;
+  }
+  </style>
+
+  <div class="login-form" ng-controller="LoginController">
+     <form class="form" role="form">
+        <div class="row">
+          <center ng-show="flag"><h2>用户登录</h2></center>
+          <center ng-hide="flag"><h2>用户注册</h2></center>
+        </div>
+
+        <div class="form-body">
+          <div class="row form-row">
+              <div class="field">     
+
+                 <label for="loginName" class="login-span"><i class="glyphicon glyphicon-user" title="会员名"></i></label>
+                 <input type="text" class="login-text" ng-model="loginName" id="loginName" placeholder="请输入登录名">
+              </div>
+          </div>
+          <div class="row form-row">
+              <div class="field">
+                 <label for="password" class="login-span"> <i class="glyphicon glyphicon-lock" title="登录密码"></i></label>
+                 <input type="password" class="login-text" ng-model="password" id="password" placeholder="登录密码">
+              </div>   
+          </div>
+          <div class="row form-row">
+              <button class="btn login-button" ng-click="signup()" ng-show="flag">登录</button>
+              <button class="btn login-button" ng-click="signin()" ng-hide="flag">注册</button>
+          </div>
+
+          <div class="row form-row">
+              <div>
+                <div ng-class="error">{{errorMessage}}</div>
+              </div>
+              <div class="col-md-2 pull-right">
+                <a href="#" ng-click="flag=1" ng-hide="flag">登录</a>
+                <a href="#" ng-click="flag=0" ng-show="flag">注册</a>
+              </div>
+          </div>
+        </div>
+     </form>
+  </div>

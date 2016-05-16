@@ -1,0 +1,32 @@
+ <style>
+.right-column{padding-left:0px;padding-right:30px;}
+
+
+</style>
+
+
+<div class="form-body">
+  <div class="row">
+    <div class="col-xs-2 left-column">
+      <div class="panel panel-primary">
+         <div class="panel-heading">
+            <h3 class="panel-title">功能列表</h3>
+         </div>
+         <div class="panel-body" ng-show="isAdmin">
+            <a href="#" ui-sref="admin.index.user({ loginName: '{{loginName}}'})">用户管理</a>
+         </div>
+         <div class="panel-body" ng-show="isAdmin">
+            <a href="#" ui-sref="admin.index.role({ loginName: '{{loginName}}'})">角色管理</a>
+         </div>
+         <div class="panel-body">
+            <a href="#" ui-sref="admin.index.brief({ loginName: '{{loginName}}'})">Brief管理</a>
+         </div> 
+      </div>        
+    </div>
+    <div class="col-xs-10 right-column">
+      <div ui-view="main"></div>
+    </div>
+  </div>
+
+
+</div>
