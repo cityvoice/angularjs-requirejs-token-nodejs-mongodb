@@ -1,0 +1,2 @@
+# angularjs-requirejs-token-nodejs-mongodb
+一个简单的单页面web工程，服务器使用nodejs+express,数据库使用mongodb+mongnoos,前端使用angularjs+requirejs，使用基于jsonwebtoken的token认证机制
